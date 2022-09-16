@@ -65,12 +65,83 @@
 
  </form>
 
-
-
-
-
  </main>
  </body>
  </fieldset>
 
 </html>
+
+//CSS
+fieldset{
+  background: linear-gradient( 10deg, #20B2AA 70%, #008080 45%)
+  }
+  
+header{
+  color:#DCDCDC;
+  font-family: arial;
+  text-align: center;
+  }
+
+body{
+  font-family: tahoma;
+  color:#F5F5F5;
+  font-size: 18px;
+  
+  }
+
+main{
+  margin: 45px; 
+}
+
+form{
+  background: #102F4F4F;
+  width: 450px;
+  height: 700px;
+  padding: 25px;
+  }
+
+
+label{
+ display:block;
+ }
+
+
+.one,.two,.three,.four,.five,.six {
+margin: 15px 0 0 0;
+font-weight: bold;
+}
+
+#name-label input[type="text"],
+#email-label input[type="email"],
+#number-label input[type="number"],
+#dropdown
+{
+margin: 0px -2px;
+padding: 10px;
+width: 60%;
+}
+
+input[type="radio"],input[type="checkbox"]{
+margin: 10px 0;
+}
+
+textarea{
+  width: 400px;
+  height: 90px;
+  margin: 15px 0px 0px 20px;
+}
+
+#submit{
+  background-color:	#2F4F4F;
+  border:#2F4F4F;
+  color: #F5F5F5;
+  margin: 25px 0px 0px 110px;
+  width: 50%;
+  padding: 8px;
+  font-family: tahoma;
+  }
+
+#submit:hover{
+background:#102F4F4F;
+border: #102F4F4F;
+}
