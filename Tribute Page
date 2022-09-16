@@ -1,0 +1,130 @@
+//html
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="styles.css">
+  <title id="title">Prince Miloš Obrenović I</title>
+  </head>
+
+<div class="coral">
+
+  <header>
+    <h1>Prince Miloš Obrenović I </h1>
+    <p class="sub-heading">The prince who freed Serbia from Ottoman's rule</p>
+  </header>
+
+  <main id="main">
+
+    <div id="img-div">
+      <img id="image" src="https://www.dropbox.com/s/kh9w0q8uxjs7sw6/IMG-96c2823d1ffc37cb41a496b91fdc4944-V.jpg?dl=1"/>
+    <div id="img-caption"> Statue of Miloš Obrenović in Požarevac </div>
+    </div>
+
+<div id="tribute-info">
+  <h2>Time Line</h2>
+<p>
+1780 - Historians believe Miloš was born in 1780, however controversial arguments suggest he was born in 1783. His family are descendents from the Bratonožići tribe.
+</p>
+    
+<p>
+1804 - Miloš Teodorović particpated in the first Serbian uprising with his half-brother Milan Obrenović. 
+</p>
+
+<p> 
+1805 - Milos married Ljubica Vukomanović. Historians speculate they had many still-births and miscarriages, granting a total number of 17 pregnancies. 
+</p>
+
+<p>
+1810 - After Milan's death, Miloš adopted his half-brother's surname, Obrenović, and was one of few who stayed in Serbia to face the returning Ottomans.
+</p>
+
+<p>
+1815 - Miloš led the second Serbian uprising against the Turks. As a result, Serbia gained some autonomy, but remained under Ottoman sovereignty. 
+</p>
+
+<p> 
+1828-1830 - Miloš invited two distinguised legal specialists to prepare a more suitable criminal and civil code for Serbia.
+</p>
+
+<p> 1831 - Sultan of the Ottoman empire gave an imperial edict that recoginised Serbian autonomy for most matters of internal administration. 
+</p>
+
+<p>
+1835 - After the Mileta Rebellion, Miloš agreed to adopt a very liberal Sretenje Constitution. 
+</p>
+
+<p>
+1838 - Austria Empire, Russian Empire and Ottoman Empire opposed the Sretenje Constitution. A a result, Miloš abolished the consititution for a less-liberal one led by the three empires. 
+</p>
+
+<p class="foot-note"> Further reading about this heroic figure can be found under 'biographies' in <a href="https://en.wikipedia.org/wiki/Milo%C5%A1_Obrenovi%C4%87_I_of_Serbia" id="tribute-link" target="_blank"><i>Wikipedia</i></p> 
+ 
+</div>      
+</main>
+</html>
+
+// CSS
+
+html{
+  font-family: arial;
+  background-color: #800000;
+  padding: 5px;
+}
+
+.coral{
+  background-color: rgb(205,92,92);
+  border-left:solid 10px#CD5C5C;
+  border-right:solid 10px#CD5C5C;
+  border-bottom:solid 10px#CD5C5C;
+  border-top: solid 1px#CD5C5C;
+}
+
+header{
+  text-align: center;
+  }
+
+.sub-heading{
+   margin-top: -15px;
+   margin-bottom: 30px;  
+}
+
+#image{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+
+}
+
+#img-caption{
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+ 
+
+#tribute-info{
+  padding: 10px 100px;
+  background-color: #800000;
+  color: #FFE4E1;
+}
+
+p{
+  margin: 40px 0 0;
+}
+
+.foot-note{
+ font-size: 14px;
+ width: 170%;
+ margin-left: -90px;
+}
+
+#tribute-link{
+  font-size: 14px;
+  color: #FFE4E1;
+}
